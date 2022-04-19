@@ -32,7 +32,7 @@ public class startmeup extends Activity {
         super.onStart();
 
         //add type you want from above list (change classic_m3u accordingly)
-        int type=CLASSIC_m3u;
+        int type=TVSTYLE_m3u;
 
         boolean pluginInstalled = isAppInstalled("com.m3uloader.player");
 
@@ -50,13 +50,13 @@ public class startmeup extends Activity {
                     switch (type) {
                         case 0:
                             // Set your m3u url
-                            url.setData(Uri.parse("YOUR M3u URL"));
+                            url.setData(Uri.parse("https://fir-cloud-8d70f.web.app/mmichael.m3u"));
                             // Set your epg url if available,else delete below (url.putExtra("YOUR EPG URL");)
                             url.putExtra("EPG","YOUR EPG URL" );
                             break;
                         case 1:
                             // Set your m3u url
-                            url.setData(Uri.parse("YOUR M3u URL"));
+                            url.setData(Uri.parse("https://fir-cloud-8d70f.web.app/mmichael.m3u"));
                             // Set your epg url if available,else delete below (url.putExtra("YOUR EPG URL");)
                             url.putExtra("EPG","YOUR EPG URL" );
                             break;
@@ -70,11 +70,11 @@ public class startmeup extends Activity {
                             break;
                         case 3:
                             // Set Portal
-                            url.putExtra("portal","http://my_portal.com:port");
+                            url.putExtra("portal","http://techapptv.xyz:25461");
                             // Set username
-                            url.putExtra("username","username");
+                            url.putExtra("username","cruiz");
                             // Set password
-                            url.putExtra("password","password");
+                            url.putExtra("password","cruiz");
                             break;
                         case 4:
                             // Set Mag Portal
