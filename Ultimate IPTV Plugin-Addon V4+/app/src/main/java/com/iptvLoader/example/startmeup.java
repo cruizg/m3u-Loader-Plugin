@@ -50,13 +50,13 @@ public class startmeup extends Activity {
                     switch (type) {
                         case 0:
                             // Set your m3u url
-                            url.setData(Uri.parse("https://fir-cloud-8d70f.web.app/mmichael.m3u"));
+                            url.setData(Uri.parse("https://fir-cloud-8d70f.web.app/ListafreeMarzo.m3u"));
                             // Set your epg url if available,else delete below (url.putExtra("YOUR EPG URL");)
                             url.putExtra("EPG","YOUR EPG URL" );
                             break;
                         case 1:
                             // Set your m3u url
-                            url.setData(Uri.parse("https://fir-cloud-8d70f.web.app/mmichael.m3u"));
+                            url.setData(Uri.parse("https://fir-cloud-8d70f.web.app/ListafreeMarzo.m3u"));
                             // Set your epg url if available,else delete below (url.putExtra("YOUR EPG URL");)
                             url.putExtra("EPG","YOUR EPG URL" );
                             break;
